@@ -1,3 +1,16 @@
-theme: jekyll-theme-minimal
+
 title: Seven Forty Seven Productions
 description: The blog and project hub for Seven Forty Seven Productions.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - README.md
+  - LICENSE.txt
+  - .sass-cache/
+  - .jekyll-cache/
+  - "**/._*"        
+  - "_site/"
+  - "*.py"
+  - "*.bat"
+  
